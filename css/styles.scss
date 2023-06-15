@@ -1,0 +1,15 @@
+@import './utils/variables';
+@import './components/Layout/header';
+:root{
+    background-color: $color-primary-dark;
+    padding: 0;
+    margin: 0;
+    font-family: $font-primary;
+}
+body{
+    
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;  
+}
