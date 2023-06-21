@@ -9,7 +9,10 @@ header {
 }
 
 .navbar {
-  background-color: #f8f8f8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #bcc7bb;
   padding: 10px;
   display: flex;
   justify-content: space-between;
