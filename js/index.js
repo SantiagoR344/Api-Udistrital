@@ -1,3 +1,6 @@
+
+
+
 //fetch api
 const url = 'https://genius-song-lyrics1.p.rapidapi.com/search/?q=title&per_page=15&page=1';
 const options = {
@@ -59,3 +62,14 @@ function getSong(){
     });
 }getSong();
 
+//create function to get data search song from api and show in html
+// function searchSong(){
+    
+
+// };
+
+
+// links to html
+document.getElementById('search').addEventListener('click', function(){
+    window.location.href = 'search.html';
+});

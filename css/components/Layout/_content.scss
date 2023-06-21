@@ -80,3 +80,47 @@ main{
         transition: all 0.3s ease; // Aplica una transición de 0.5 segundos
     }
 }
+@media screen and (max-width: 768px) {
+    #TablesongTitle {
+        padding: 5vh;
+    }
+    #TablesongTitle label {
+        font-size: 1.2vh;
+    }
+    #TablesongTitle p {
+        font-size: 1.2vh;
+    }
+    #songArtis {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #TablesongTitle {
+        padding: 2vh;
+    }
+    #TablesongTitle label {
+        font-size: 1vh;
+    }
+    #TablesongTitle p {
+        font-size: 1vh;
+    }
+    #songArtis {
+        padding: 1px;
+    }
+}
+@media screen and (max-width: 320px) {
+    #TablesongTitle {
+        padding: 1vh;
+    }
+    #TablesongTitle label {
+        font-size: 0.8vh;
+    }
+    #TablesongTitle p {
+        font-size: 0.8vh;
+    }
+    #songArtis {
+        padding: 1px;
+    }
+}
+    
